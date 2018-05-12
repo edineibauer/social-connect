@@ -1,0 +1,9 @@
+[
+  {
+    "icon": "share",
+    "title": "Conexões Sociais",
+    "lib": "dashboard",
+    "file": "social_connect/settings",
+    "setor": 2
+  }
+]
