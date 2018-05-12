@@ -1,0 +1,19 @@
+{
+    "name": "conn/social-connect",
+    "description": "Controle de conexões com redes sociais",
+    "type": "library",
+    "license": "MIT",
+    "prefer-stable" : true,
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Edinei J. Bauer",
+            "email": "edineibauer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "conn/dashboard": "dev-master",
+        "cosenary/instagram": "^2.4@dev"
+    }
+}
