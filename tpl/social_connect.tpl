@@ -47,4 +47,4 @@
 
 </div>
 
-<script src="{$home}vendor/conn/dashboard/assets/social_connect.min.js?v={$version}"></script>
+<script src="{$home}vendor/conn/social-connect/assets/social_connect.min.js?v={$version}"></script>

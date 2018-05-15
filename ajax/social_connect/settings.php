@@ -5,5 +5,5 @@ $dados = [
     'instagram_token' => defined("INSTAGRAM_TOKEN") ? INSTAGRAM_TOKEN : ""
 ];
 
-$tpl = new \Helpers\Template("dashboard");
+$tpl = new \Helpers\Template("social-connect");
 $data['data'] .= $tpl->getShow("social_connect", $dados);

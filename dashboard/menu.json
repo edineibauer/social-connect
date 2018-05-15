@@ -2,7 +2,7 @@
   {
     "icon": "share",
     "title": "Conexões Sociais",
-    "lib": "dashboard",
+    "lib": "social-connect",
     "file": "social_connect/settings",
     "setor": 2
   }

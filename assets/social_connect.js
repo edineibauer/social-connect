@@ -6,7 +6,7 @@ function saveSocialSettings(field, value) {
 }
 
 function updateSocialPosts($this) {
-    post("dashboard", "social_connect/getPost", {social: $this.attr("rel")}, function (g) {
+    post("social-connect", "social_connect/getPost", {social: $this.attr("rel")}, function (g) {
         if (!g)
             toast("Posts do " + ucFirst($this.attr("rel")) + " foram Atualizados", 4000);
         else
