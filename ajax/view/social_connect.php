@@ -1,4 +1,5 @@
 <?php
+
 use MetzWeb\Instagram\Instagram;
 
 if(defined("INSTAGRAM_ID") && !empty(INSTAGRAM_ID) && defined("INSTAGRAM_SECRET") && !empty(INSTAGRAM_SECRET)) {
@@ -34,8 +35,10 @@ if(defined("INSTAGRAM_ID") && !empty(INSTAGRAM_ID) && defined("INSTAGRAM_SECRET"
             $create->exeCreate("dashboard_note", ['titulo' => $titulo, "descricao" => "Sua conexão com o instagram foi realizada com sucesso! Para adicionar/atualizar as imagens, volte ao menu de Conexões Sociais e clique no botão novamente.", "status" => 1, "data" => date("Y-m-d H:i:s")]);
         }
 
-        header("Location:" . HOME . "dashboard");
+        $data['response'] = 3;
+        $data['data'] = HOME . "dashboard";
+
     } else {
-        echo "Erro com o code retornado do login permission";
+        $data['data'] = "Erro com o code retornado do login permission";
     }
 }
