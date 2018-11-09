@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.2",
-        "conn/dashboard": "2.0.*",
+        "conn/dashboard": "*",
         "cosenary/instagram": "^2.4@dev"
     }
 }
